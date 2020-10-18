@@ -1,0 +1,79 @@
+  
+:root {
+    box-sizing: border-box; 
+    font-family: 'Roboto Mono', monospace;         
+  }
+  
+  *,
+  ::before,
+  ::after {
+    box-sizing: inherit; 
+    margin: 0;             
+  }
+
+.bookHeader {
+    background-color:#303030;
+    padding: 1.5em;
+    color: white;
+    border-bottom: 5px solid #ed4b00;
+}
+
+.bookHeader h1 {
+    text-align: center;
+    position: relative;
+}
+
+.wordSearch {
+    text-align: center;
+    margin: 2em;
+}
+
+#definition {
+    text-align: center;
+}
+
+.entry {
+    margin: 1em;
+}
+
+#wordSubmit {
+    border-radius: 5px;
+    border: 0;
+    width: 5em;
+    height:2em;
+    font-family: Tahoma;
+    background: #f4f4f4;
+    background: linear-gradient(to bottom, #303030 1%, #303030 100%);
+    margin: 1.5em;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: #303030;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5em;
+    position: fixed;
+}
+
+footer a {
+    text-decoration: none;
+    color: white
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+.footer-banner {
+    padding: 1em;
+    color: white;
+    min-height: calc(20h - 120px);
+}
+
+.footer-banner img {
+    max-width: calc(1em + 1vw);
+    margin: .5em;
+    color: white;
+}
